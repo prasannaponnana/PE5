@@ -21,7 +21,7 @@ public class ReplaceBooleanTest {
     public void replace(){
         rb=new Reolaceboolean();
         String[] arr={"a","b","b","a","a","c","c","d","d"};
-        Map<String,Boolean> res=rb.map(arr);
+        Map<String,Boolean> res=rb.map(a);
         Map<String,Boolean> res1=new HashMap<String,Boolean>();
         res1.put("a",true);
         res1.put("b",true);
@@ -32,8 +32,8 @@ public class ReplaceBooleanTest {
     @Test
     public void GivenStringArray_SameItemsAreAlsoSent_ShouldReturnTrueOrFalseCorresponding() {
         rb = new Reolaceboolean();
-        String[] str = {"one", "two","three", "one", "two"};
-        Map<String,Boolean> res= rb.map(str);
+        String[] s = {"one", "two","three", "one", "two"};
+        Map<String,Boolean> res= rb.map(s);
         Map<String,Boolean> res2=new HashMap<String,Boolean>();
         res2.put("one",true);
         res2.put("two",true);

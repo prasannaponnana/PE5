@@ -31,12 +31,12 @@ public class FindTest {
         @Test
         public void CountTest(){
             f=new Find();
-            String str="1 ? 1.,2";
-            Map<String,Integer> result=f.count(str);
+            String s="1 ? 1.,2,3";
+            Map<String,Integer> res=f.count(s);
             Map<String,Integer> c=new HashMap<>();
             c.put("2",1);
             c.put("1",2);
-            assertEquals(c,result);
+            assertEquals(c,res);
 
 
         }

@@ -22,14 +22,14 @@ import static org.junit.Assert.*;
         @Test
         public void module(){
             modulereplace=new Modulereplace();
-            Map<String,String> map=new HashMap<String,String>();
-            map.put("value1","val3");
-            map.put("value2","val6");
-            Map<String,String> resultmap=modulereplace.Replace(map);
-            Map<String,String> mapresult=new HashMap<String,String>();
-            mapresult.put("value1"," ");
-            mapresult.put("value2","val3");
-            assertEquals(mapresult,resultmap);
+            Map<String,String> rp=new HashMap<String,String>();
+            rp.put("value1","val3");
+            rp.put("value2","val6");
+            Map<String, String> res=modulereplace.Replace(rp);
+            Map<String,String> rpresult=new HashMap<String,String>();
+            rpresult.put("value1"," ");
+            rpresult.put("value2","val3");
+            assertEquals(rpresult,res);
 
 
 

@@ -5,13 +5,13 @@ import java.util.Map;
 import java.util.HashMap;
 import java.util.Map;
 public class Reolaceboolean {
-    public Map<String,Boolean> map(String[] str) {
+    public Map<String,Boolean> Map(String[] s) {
             Map<String, Boolean> boo = new HashMap<>();
-            for (String word : str) {
+            for (String p : s) {
                 if (boo.containsKey(word)) {
-                    boo.put(word, true);
+                    boo.put(p, true);
                 } else {
-                    boo.put(word, false);
+                    boo.put(p, false);
                 }
             }
             return boo;

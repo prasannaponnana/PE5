@@ -30,7 +30,7 @@ import static org.junit.Assert.*;
             f.add("berry");
             List<String> f1=rtest.replace(f);
             List<String> f2=new ArrayList<>();
-            f2.add("apple");
+            f2.add("kiwi");
             f2.add("grape");
             f2.add("mango");
             f2.add("berry");
@@ -42,7 +42,7 @@ import static org.junit.Assert.*;
         {
             rtest=new Replace();
             List<String> f=new ArrayList<String>();
-            f.add("apple");
+            f.add("kiwi");
             f.add("grape");
             f.add("mango");
             f.add("berry");

@@ -6,7 +6,7 @@ import java.util.Arrays;
 
 public class Find {
     public Map<String, Integer> count(String str) {
-        String[] list= str.split("[\\W_]+");
+        String[] list= str.split("[ ]+");
         Map<String,Integer> countf = new HashMap<String,Integer>();
         for (String s : list) {
             if (countf.containsKey(s)) {

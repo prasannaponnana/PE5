@@ -2,7 +2,7 @@ package com.stackroute;
 import java.util.List;
 public class Replace {
         public List<String> replace(List<String> list){
-            list.set(0,"apple");
+            list.set(0,"kiwi");
             list.set(2,"mango");
             return list;
         }
@@ -11,11 +11,11 @@ public class Replace {
             String result="";
             if(list.isEmpty())
             {
-                result="true";
+                res="true";
             }
             else
-                result="false";
-            return result;
+                res="false";
+            return res;
 
         }
     }
