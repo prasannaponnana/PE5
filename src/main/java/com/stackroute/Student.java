@@ -1,30 +1,30 @@
 package com.stackroute;
 public class Student {
-        public String student_id;
-        public String student_name;
-        public int student_age;
-        public Student(String student_id, String student_name, int student_age) {
-            this.student_id = student_id;
-            this.student_name = student_name;
-            this.student_age = student_age;
+        public String studentid;
+        public String studentname;
+        public int studentage;
+        public Student(String studentid, String studentname, int studentage) {
+            this.studentid = studentid;
+            this.studentname = studentname;
+            this.studentage = studentage;
         }
         public String getStudentid() {
-            return student_id;
+            return studentid;
         }
         public String getStudentname() {
-            return student_name;
+            return studentname;
         }
         public int getStudentage() {
-            return student_age;
+            return studentage;
         }
-        public void setStudentid(String student_id) {
-            this.student_id = student_id;
+        public void setStudentid(String studentid) {
+            this.studentid = studentid;
         }
-        public void setStudentname(String student_name) {
-            this.student_name = student_name;
+        public void setStudentname(String studentname) {
+            this.studentname = studentname;
         }
-        public void setStudentage(int student_age) {
-            this.student_age = student_age;
+        public void setStudentage(int studentage) {
+            this.studentage = studentage;
         }
     }
 

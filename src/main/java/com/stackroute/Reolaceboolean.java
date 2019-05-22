@@ -2,10 +2,8 @@ package com.stackroute;
 
 import java.util.HashMap;
 import java.util.Map;
-import java.util.HashMap;
-import java.util.Map;
 public class Reolaceboolean {
-    public Map<String,Boolean> Map(String[] s) {
+ public Map<String,Boolean> Map(String[] s) {
             Map<String, Boolean> boo = new HashMap<>();
             for (String p : s) {
                 if (boo.containsKey(p)) {

@@ -1,9 +1,8 @@
 package com.stackroute;
 import java.util.Arrays;
-        import java.util.HashMap;
-        import java.util.List;
-        import java.util.Map;
-
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 public class Find {
     public Map<String, Integer> count(String str) {
         String[] list= str.split("[ ]+");
